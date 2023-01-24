@@ -1,0 +1,5 @@
+celeb_dataset/
+data_dcgan/
+data_img_without_normalization/
+gan_metrics_test/
+result/
