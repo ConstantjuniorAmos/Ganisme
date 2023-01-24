@@ -6,10 +6,13 @@ le jeux de donnée utilisé : https://docs.google.com/spreadsheets/d/1zP0jnTrZiT
 
 ### 1 : Scrapp des images de `TYPE` painting 
 
+    - scrapp_image-data.py : Récupere uri de l'image et télécharge en local dans un dossier nommée `data_img` s'ils vous plaît creer le dossier data_img vide avant de lancer le script python de scrapp   
+
 ### 2 : Data analyse
 
 ### 3 : pre traitements du jeu de donnée d'images
-    - preprocess_img-data : 
+
+    - preprocess_img-data : Redimensionnement des peintures méthodes vue interpolation bilinéaire et bicubique
 
 ### 4 : DCGAN ( Deep Convolutional ...)
 
