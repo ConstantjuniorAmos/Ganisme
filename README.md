@@ -11,9 +11,9 @@ le jeux de donnée utilisé : https://docs.google.com/spreadsheets/d/1zP0jnTrZiT
 
 ### 2 : Data analyse
 
-    ![](https://github.com/ConstantjuniorAmos/Ganisme/timelapse_image.gif)
+![](https://github.com/ConstantjuniorAmos/Ganisme/blob/master/timelapse_image.gif)
 
-    https://colab.research.google.com/drive/1UcupHZi5rCCagd2MrTcotMKml-dLZR5e
+https://colab.research.google.com/drive/1UcupHZi5rCCagd2MrTcotMKml-dLZR5e
 
 
 
