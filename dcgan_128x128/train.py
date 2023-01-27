@@ -41,9 +41,7 @@ transforms = transforms.Compose(
 )
 
 dataset = datasets.ImageFolder(root="../data_dcgan", transform=transforms)
-
 dataloader = DataLoader(dataset, batch_size=BATCH_SIZE, shuffle=True)
-
 gen = Generator(NOISE_DIM, CHANNELS_IMG, FEATURES_GEN).to(device)
 disc = Discriminator(CHANNELS_IMG, FEATURES_DISC).to(device)
 

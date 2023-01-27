@@ -8,12 +8,17 @@ le jeux de donnée utilisé : https://docs.google.com/spreadsheets/d/1zP0jnTrZiT
 
     - scrapp_image-data.py : Récuperation de uri de l'image et télécharge en local dans un dossier nommée `data_img` s'ils vous plaît creer le dossier data_img vide avant de lancer le script python de scrapp   
 
+
 ### 2 : Data analyse
-    - images + notebook
+
+    - https://colab.research.google.com/drive/1UcupHZi5rCCagd2MrTcotMKml-dLZR5e
+
+    ![](https://github.com/ConstantjuniorAmos/Ganisme/timelapse_image.gif)
 
 ### 3 : pre traitements du jeu de donnée d'images
 
     - preprocess_img-data : Redimensionnement des peintures méthodes (Interpolation Bilinéaire et Bicubique)
+
 
 ### 4 : DCGAN ( Deep Convolutional ...)
 
