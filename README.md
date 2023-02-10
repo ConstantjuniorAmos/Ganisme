@@ -17,7 +17,7 @@ https://colab.research.google.com/drive/1UcupHZi5rCCagd2MrTcotMKml-dLZR5e
 
 
 
-### 3 : pre traitements du jeu de donnée d'images
+### 3 : Pre-traitements du jeu de donnée d'images
 
 `preprocess_img-data` : Redimensionnement des peintures méthodes (Interpolation Bilinéaire et Bicubique)
 
