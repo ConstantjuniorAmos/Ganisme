@@ -56,18 +56,12 @@ class Generator(nn.Module):
             self._block(features_g * 8, features_g * 4, 4, 2, 1),  # img: 16x16
             self._block(features_g * 4, features_g * 2, 4, 2, 1),  # img: 32x32
             self._block(features_g * 2, features_g, 4, 2, 1),  # img: 64x64
-            self._block(features_g, features_g, 4, 2, 1), # img 128 x 128
             nn.ConvTranspose2d(
                 features_g, channels_img, kernel_size=4, stride=2, padding=1
             ),
             # Output: N x channels_img x 128 x 128
             nn.Tanh(),
         )
-
-    #256x256x8
-    # self.G.add(Conv2D(filters = 3, kernel_size = 3, padding = 'same'))
-    # self.G.add(Activation('sigmoid'))
-        
 
     def _block(self, in_channels, out_channels, kernel_size, stride, padding):
         return nn.Sequential(
